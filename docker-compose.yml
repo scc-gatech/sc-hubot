@@ -1,5 +1,6 @@
 hubot:
   build: .
+  restart: always
   extra_hosts:
     - "redis:$DOCKERHOST"
   env_file:
