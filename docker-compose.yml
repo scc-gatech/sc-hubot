@@ -5,4 +5,4 @@ hubot:
   env_file:
     - .env
   environment:
-    - REDIS_URL=redis:6379/hubot
+    - REDIS_URL=redis://redis:6379/hubot
