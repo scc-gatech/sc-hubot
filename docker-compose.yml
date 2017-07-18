@@ -6,3 +6,4 @@ hubot:
     - .env
   environment:
     - REDIS_URL=redis://redis:6379/hubot
+    - HUBOT_EXTRA_MEMES=True
