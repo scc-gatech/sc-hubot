@@ -4,5 +4,5 @@ hubot:
     - "redis:$DOCKERHOST"
   env_file:
     - .env
-  enviornment:
+  environment:
     - REDIS_URL=redis:6379/hubot
