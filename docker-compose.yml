@@ -1,0 +1,6 @@
+hubot:
+  build: .
+  extra_hosts:
+    - "redis:$DOCKERHOST"
+  env_file:
+    - .env
